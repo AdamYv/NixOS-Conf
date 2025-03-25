@@ -1,0 +1,81 @@
+window {
+  margin: 0px;
+  border: 5px solid #575268;
+  background-color: #191a24;
+  border-radius: 5px;
+  font-family: "JetBrains Mono";
+  font-size: 12px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#input {
+  border: none;
+  color: #E2E0EC;
+  font-weight: bold;
+  background-color: #1E1E2E;
+  outline: none;
+  border-radius: 5px;
+  margin: 10px 13px;
+  margin-bottom: 2px;
+}
+#input:focus {
+  border: 0px solid #575268;
+  margin-bottom: 0px;
+}
+
+#inner-box {
+  margin: 4px;
+  border: 10px solid #1E1E2E;
+  color: #E2E0EC;
+  font-weight: bold;
+  background-color: #1E1E2E;
+  border-radius: 5px;
+}
+
+#outer-box {
+  margin: 0px;
+  border: 1.5px solid #a64c4c ;
+  border-radius: 5px;
+  background-color: #1E1E2E;
+}
+
+#scroll {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#img {
+  margin-right: 10px;
+}
+
+#img:selected {
+  background-color: transparent;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#text:selected {
+  color: #1E1E2E;
+  margin: 0px 0px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+#entry {
+  margin: 0px 0px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+#entry:selected {
+  margin: 0px 0px;
+  border: none;
+  border-radius: 2px;
+  background-color: #e05a5a;
+}
