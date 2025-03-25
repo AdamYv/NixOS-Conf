@@ -1,0 +1,2 @@
+#!/bin/sh
+appimage-run /home/adam/bin/zen-x86_64.AppImage "$@"
